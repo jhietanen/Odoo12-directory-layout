@@ -1,0 +1,6 @@
+#!/bin/sh
+ROOT=$(dirname $0)/..
+PYTHON=$ROOT/env/bin/python3.8
+ODOO=$ROOT/src/odoo/odoo-bin
+CONF=$ROOT/conf/test.cfg
+$PYTHON $ODOO -c $CONF
