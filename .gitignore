@@ -1,6 +1,7 @@
 # dotfiles:
 .*
 !.gitignore
+!.gitkeep
 
 # python compiled files
 *.py[co]
